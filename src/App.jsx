@@ -1,5 +1,9 @@
-import Home from "./pages/Home.jsx";
+// src/App.jsx
+import React from 'react';
+import ChatPage from './pages/ChatPage';
 
-export default function App() {
-  return <Home />;
+function App() {
+  return <ChatPage />;
 }
+
+export default App;
