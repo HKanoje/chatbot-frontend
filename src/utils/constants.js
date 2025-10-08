@@ -17,6 +17,5 @@ export const ALLOWED_FILE_EXTENSIONS = '.pdf, .jpeg, .png, .jpg, .xls, .xlsx, .c
 //Threshould for showing laoding indicator
 export const LOADING_THRESHOLD = 30; //in chars
 
-//API Endpoint
-
-export const API_BASE_URL = 'http://localhost:8000/api/';
+// API endpoint - use environment variable
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';

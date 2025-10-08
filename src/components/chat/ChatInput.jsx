@@ -1,7 +1,7 @@
 // src/components/chat/ChatInput.jsx
 import React, { useRef } from 'react';
 import { Send, Paperclip, X } from 'lucide-react';
-import { ALLOWED_FILE_EXTENSIONS } from '../../utils /constants';
+import { ALLOWED_FILE_EXTENSIONS } from '../../utils/constants';
 
 const ChatInput = ({ 
   inputText, 
